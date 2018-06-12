@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
 
-You can use the [editor on GitHub](https://github.com/rutikangafiston/monitor/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-### Markdown
+    <title>Vehisec SDS | Login</title>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
 
-```markdown
-Syntax highlighted code block
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
-# Header 1
-## Header 2
-### Header 3
+    <script src="js/page.js"></script>
 
-- Bulleted
-- List
+</head>
 
-1. Numbered
-2. List
+<body class="gray-bg">
 
-**Bold** and _Italic_ and `Code` text
+    <div class="middle-box text-center loginscreen animated fadeInDown">
+        <div>
+            <div>
 
-[Link](url) and ![Image](src)
-```
+                <h1 class="logo-name">SDS </h1>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+            </div>
+            <h3>Welcome to Vehisec SDS</h3>
+            <p>Monitor your Car's SDS Device in Real-time mode, activity history and more.
 
-### Jekyll Themes
+            </p>
+            <p>Login in. To monitor your device.</p>
+            <form class="m-t" role="form" action="index.html">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Vehicle ID" required="" id="vehicleID">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Key" required="" id="vehicleKey">
+                </div>
+                <button type="submit" class="btn btn-primary block full-width m-b" onclick="location.href='dashboard.html'">Login</button>
+            </form>
+            <p class="m-t"> <small>VEHISEC Bestt way to Secure your Journey &copy; 2018</small> </p>
+        </div>
+    </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rutikangafiston/monitor/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    <!-- Mainly scripts -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+
+</html>
